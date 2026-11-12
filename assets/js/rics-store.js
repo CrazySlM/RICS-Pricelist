@@ -156,7 +156,6 @@ class RICSStore {
                 enabled: itemData.Enabled !== false,
                 modactive: itemData.modactive === true   // NEW
             }))
-            .filter(item => item.modactive)               // ← Only show active mods
             .filter(item => (item.enabled || item.isUsable || item.isEquippable || item.isWearable))
             .filter(item => item.price > 0);
     }
@@ -172,7 +171,6 @@ class RICSStore {
                 enabled: eventData.Enabled !== false,
                 modactive: eventData.modactive === true   // NEW
             }))
-            .filter(event => event.modactive)             // ← Only show active mods
             .filter(event => event.enabled && event.baseCost > 0);
     }
 
@@ -192,7 +190,6 @@ class RICSStore {
                 modSource: traitData.ModSource || 'Unknown',
                 modactive: traitData.modactive === true   // NEW
             }))
-            .filter(trait => trait.modactive)               // ← Only show active mods
             .filter(trait => trait.canAdd || trait.canRemove)
             .filter(trait => trait.addPrice > 0 || trait.removePrice > 0);
     }
@@ -209,7 +206,6 @@ class RICSStore {
                 enabled: weatherData.Enabled !== false,
                 modactive: weatherData.modactive === true   // NEW
             }))
-            .filter(weather => weather.modactive)         // ← Only show active mods
             .filter(weather => weather.enabled && weather.baseCost > 0);
     }
 
