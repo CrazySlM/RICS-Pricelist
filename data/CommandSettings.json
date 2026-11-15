@@ -1,6 +1,6 @@
 {
   "givecoins": {
-    "Enabled": true,
+    "Enabled": false,
     "CooldownSeconds": 0,
     "Cost": 0,
     "SupportsCost": false,
@@ -20,7 +20,7 @@
     "CustomData": ""
   },
   "givekarma": {
-    "Enabled": true,
+    "Enabled": false,
     "CooldownSeconds": 0,
     "Cost": 0,
     "SupportsCost": false,
@@ -40,7 +40,7 @@
     "CustomData": ""
   },
   "setkarma": {
-    "Enabled": true,
+    "Enabled": false,
     "CooldownSeconds": 0,
     "Cost": 0,
     "SupportsCost": false,
@@ -60,7 +60,7 @@
     "CustomData": ""
   },
   "togglestore": {
-    "Enabled": true,
+    "Enabled": false,
     "CooldownSeconds": 0,
     "Cost": 0,
     "SupportsCost": false,
@@ -80,7 +80,7 @@
     "CustomData": ""
   },
   "fixallpawns": {
-    "Enabled": true,
+    "Enabled": false,
     "CooldownSeconds": 0,
     "Cost": 0,
     "SupportsCost": false,
@@ -100,7 +100,7 @@
     "CustomData": ""
   },
   "cleanlootboxes": {
-    "Enabled": true,
+    "Enabled": false,
     "CooldownSeconds": 0,
     "Cost": 0,
     "SupportsCost": false,
@@ -120,7 +120,7 @@
     "CustomData": ""
   },
   "cleanviewers": {
-    "Enabled": true,
+    "Enabled": false,
     "CooldownSeconds": 0,
     "Cost": 0,
     "SupportsCost": false,
@@ -140,7 +140,7 @@
     "CustomData": ""
   },
   "rban": {
-    "Enabled": true,
+    "Enabled": false,
     "CooldownSeconds": 0,
     "Cost": 0,
     "SupportsCost": false,
@@ -160,7 +160,7 @@
     "CustomData": ""
   },
   "runban": {
-    "Enabled": true,
+    "Enabled": false,
     "CooldownSeconds": 0,
     "Cost": 0,
     "SupportsCost": false,
@@ -180,7 +180,7 @@
     "CustomData": ""
   },
   "rto": {
-    "Enabled": true,
+    "Enabled": false,
     "CooldownSeconds": 0,
     "Cost": 0,
     "SupportsCost": false,
@@ -200,7 +200,7 @@
     "CustomData": ""
   },
   "setalias": {
-    "Enabled": true,
+    "Enabled": false,
     "CooldownSeconds": 0,
     "Cost": 0,
     "SupportsCost": false,
@@ -840,7 +840,7 @@
     "CustomData": ""
   },
   "help": {
-    "Enabled": true,
+    "Enabled": false,
     "CooldownSeconds": 1,
     "Cost": 0,
     "SupportsCost": false,
@@ -1500,7 +1500,7 @@
     "CustomData": "{\"enabled\":\"true\"}"
   },
   "hello": {
-    "Enabled": true,
+    "Enabled": false,
     "CooldownSeconds": 0,
     "Cost": 0,
     "SupportsCost": false,
@@ -2312,6 +2312,46 @@
     "Label": "LayeredApparelCommand",
     "CommandDescription": "Cosmetic clothing",
     "ExcludeFromPricelist": false,
+    "AllowedRaidTypes": [],
+    "AllowedRaidStrategies": [],
+    "DefaultLootBoxSize": 1,
+    "MinLootBoxSize": 1,
+    "MaxLootBoxSize": 10,
+    "CustomData": ""
+  },
+  "enable": {
+    "Enabled": true,
+    "CooldownSeconds": 0,
+    "Cost": 0,
+    "SupportsCost": false,
+    "PermissionLevel": "moderator",
+    "RequiresConfirmation": false,
+    "CommandAlias": "",
+    "useCommandCooldown": true,
+    "MaxUsesPerCooldownPeriod": 0,
+    "Label": "enable command",
+    "CommandDescription": "Turn a command on. Usage: !enable command. Chat cannot turn !enable or !disable on or off. Use command settings for those.",
+    "ExcludeFromPricelist": true,
+    "AllowedRaidTypes": [],
+    "AllowedRaidStrategies": [],
+    "DefaultLootBoxSize": 1,
+    "MinLootBoxSize": 1,
+    "MaxLootBoxSize": 10,
+    "CustomData": ""
+  },
+  "disable": {
+    "Enabled": true,
+    "CooldownSeconds": 0,
+    "Cost": 0,
+    "SupportsCost": false,
+    "PermissionLevel": "moderator",
+    "RequiresConfirmation": false,
+    "CommandAlias": "",
+    "useCommandCooldown": true,
+    "MaxUsesPerCooldownPeriod": 0,
+    "Label": "disable command",
+    "CommandDescription": "Turn a command off. Usage: !disable command. Chat cannot turn !enable or !disable on or off. Use command settings for those.",
+    "ExcludeFromPricelist": true,
     "AllowedRaidTypes": [],
     "AllowedRaidStrategies": [],
     "DefaultLootBoxSize": 1,
