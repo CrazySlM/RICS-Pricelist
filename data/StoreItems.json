@@ -3523,7 +3523,7 @@
       "BasePrice": 2,
       "Category": "Каменные обломки",
       "Enabled": true,
-      "modactive": false
+      "modactive": true
     },
     "BlocksSandstone": {
       "DefName": "BlocksSandstone",
@@ -3553,7 +3553,7 @@
       "BasePrice": 2,
       "Category": "Каменные обломки",
       "Enabled": true,
-      "modactive": false
+      "modactive": true
     },
     "BlocksGranite": {
       "DefName": "BlocksGranite",
@@ -3583,7 +3583,7 @@
       "BasePrice": 2,
       "Category": "Каменные обломки",
       "Enabled": true,
-      "modactive": false
+      "modactive": true
     },
     "BlocksLimestone": {
       "DefName": "BlocksLimestone",
@@ -3613,7 +3613,7 @@
       "BasePrice": 2,
       "Category": "Каменные обломки",
       "Enabled": true,
-      "modactive": false
+      "modactive": true
     },
     "BlocksSlate": {
       "DefName": "BlocksSlate",
@@ -3643,7 +3643,7 @@
       "BasePrice": 2,
       "Category": "Каменные обломки",
       "Enabled": true,
-      "modactive": false
+      "modactive": true
     },
     "BlocksMarble": {
       "DefName": "BlocksMarble",
@@ -12403,7 +12403,7 @@
       "BasePrice": 104,
       "Category": "Разное",
       "Enabled": true,
-      "modactive": false
+      "modactive": true
     },
     "DarkColumnMod": {
       "DefName": "DarkColumnMod",
@@ -12418,7 +12418,7 @@
       "BasePrice": 123,
       "Category": "Разное",
       "Enabled": true,
-      "modactive": false
+      "modactive": true
     },
     "OrbitalTradeColumnMod": {
       "DefName": "OrbitalTradeColumnMod",
@@ -12433,7 +12433,7 @@
       "BasePrice": 225,
       "Category": "Разное",
       "Enabled": true,
-      "modactive": false
+      "modactive": true
     },
     "Wall_TradeDevice": {
       "DefName": "Wall_TradeDevice",
@@ -12448,7 +12448,7 @@
       "BasePrice": 155,
       "Category": "Разное",
       "Enabled": true,
-      "modactive": false
+      "modactive": true
     },
     "Wall_FirefoamPopper": {
       "DefName": "Wall_FirefoamPopper",
@@ -12463,7 +12463,7 @@
       "BasePrice": 157,
       "Category": "Разное",
       "Enabled": true,
-      "modactive": false
+      "modactive": true
     },
     "SunColumnMod": {
       "DefName": "SunColumnMod",
@@ -12478,7 +12478,7 @@
       "BasePrice": 445,
       "Category": "Разное",
       "Enabled": true,
-      "modactive": false
+      "modactive": true
     },
     "Wall_SunDevice": {
       "DefName": "Wall_SunDevice",
@@ -12493,7 +12493,7 @@
       "BasePrice": 168,
       "Category": "Разное",
       "Enabled": true,
-      "modactive": false
+      "modactive": true
     },
     "Wall_HeatDevice": {
       "DefName": "Wall_HeatDevice",
@@ -12508,7 +12508,7 @@
       "BasePrice": 215,
       "Category": "Температура",
       "Enabled": true,
-      "modactive": false
+      "modactive": true
     },
     "IceColumnMod": {
       "DefName": "IceColumnMod",
@@ -12523,7 +12523,7 @@
       "BasePrice": 510,
       "Category": "Разное",
       "Enabled": true,
-      "modactive": false
+      "modactive": true
     },
     "Wall_CoolDevice": {
       "DefName": "Wall_CoolDevice",
@@ -12538,7 +12538,7 @@
       "BasePrice": 215,
       "Category": "Разное",
       "Enabled": true,
-      "modactive": false
+      "modactive": true
     },
     "DetColumnMod": {
       "DefName": "DetColumnMod",
@@ -12553,7 +12553,7 @@
       "BasePrice": 192,
       "Category": "Защита",
       "Enabled": true,
-      "modactive": false
+      "modactive": true
     },
     "FlameColumnMod": {
       "DefName": "FlameColumnMod",
@@ -12568,7 +12568,7 @@
       "BasePrice": 200,
       "Category": "Защита",
       "Enabled": true,
-      "modactive": false
+      "modactive": true
     },
     "EMPColumnMod": {
       "DefName": "EMPColumnMod",
@@ -12583,7 +12583,7 @@
       "BasePrice": 230,
       "Category": "Защита",
       "Enabled": true,
-      "modactive": false
+      "modactive": true
     },
     "ArchotechDroneColumn": {
       "DefName": "ArchotechDroneColumn",
@@ -12598,7 +12598,7 @@
       "BasePrice": 12000,
       "Category": "Разное",
       "Enabled": true,
-      "modactive": false
+      "modactive": true
     },
     "ComponentArchoDrone": {
       "DefName": "ComponentArchoDrone",
@@ -12613,7 +12613,7 @@
       "BasePrice": 2000,
       "Category": "Apparel",
       "Enabled": true,
-      "modactive": false
+      "modactive": true
     },
     "Vin_CB": {
       "DefName": "Vin_CB",

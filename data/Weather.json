@@ -202,5 +202,65 @@
     "ModSource": "Atmosphere Overhaul",
     "modactive": true,
     "Version": 1
+  },
+  "VEE_Whiteout": {
+    "DefName": "VEE_Whiteout",
+    "Label": "белая мгла",
+    "Description": "Обильный снегопад снижает точность стрельбы из дальнобойного оружия, тушит огонь и замедляет движение людей.",
+    "BaseCost": 175,
+    "KarmaType": "Neutral",
+    "EventCap": 3,
+    "Enabled": false,
+    "ModSource": "Vanilla Events Expanded",
+    "modactive": true,
+    "Version": 1
+  },
+  "VEE_Swelter": {
+    "DefName": "VEE_Swelter",
+    "Label": "неестественная жара",
+    "Description": "Беспощадная неестественная жара.",
+    "BaseCost": 175,
+    "KarmaType": "Neutral",
+    "EventCap": 3,
+    "Enabled": false,
+    "ModSource": "Vanilla Events Expanded",
+    "modactive": true,
+    "Version": 1
+  },
+  "VEE_Inferno": {
+    "DefName": "VEE_Inferno",
+    "Label": "пекло",
+    "Description": "Катастрофическая, неестественная, гнетущая жара.",
+    "BaseCost": 175,
+    "KarmaType": "Neutral",
+    "EventCap": 3,
+    "Enabled": false,
+    "ModSource": "Vanilla Events Expanded",
+    "modactive": true,
+    "Version": 1
+  },
+  "VEE_PsychicRain": {
+    "DefName": "VEE_PsychicRain",
+    "Label": "психический дождь",
+    "Description": "Сверхъестественный дождь, меняющий само течение времени. Любой персонаж или существо, не находящееся под крышей, будет стареть значительно быстрее.",
+    "BaseCost": 150,
+    "KarmaType": "Neutral",
+    "EventCap": 3,
+    "Enabled": false,
+    "ModSource": "Vanilla Events Expanded",
+    "modactive": true,
+    "Version": 1
+  },
+  "VEE_LongNight": {
+    "DefName": "VEE_LongNight",
+    "Label": "долгая ночь",
+    "Description": "Катастрофическое затмение, погружающее планету в бесконечные сумерки и приносящее продолжительные холода. Искусственное освещение становится жизненной необходимостью, психочувствительность усиливается, а вместе с темнотой приходят ночные хищники и пробуждаются подземные угрозы.",
+    "BaseCost": 175,
+    "KarmaType": "Neutral",
+    "EventCap": 3,
+    "Enabled": false,
+    "ModSource": "Vanilla Events Expanded",
+    "modactive": true,
+    "Version": 1
   }
 }
